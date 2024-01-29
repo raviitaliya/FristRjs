@@ -1,0 +1,144 @@
+body {
+    width: auto;
+    height: auto;
+    font-family: Gotham SSm B, Gotham SSm A, Helvetica, Roboto, Arial, sans-serif;
+  }
+
+
+.page-1-fe{
+    width: 100%;
+    height: 100vh;
+}
+.page-1-fe h1{
+  font-size: 70px;
+}
+.page-1-fe p{
+  font-size: 30px;
+}
+
+.hero-section-of-features-page{
+  z-index: 0;
+  position: relative;
+}
+
+.hero-section-of-features-page-section-1{
+  z-index: 1;
+  position: absolute;
+  padding-top: 25vh;
+  padding-left: 80px;
+  padding-right: 50vw;
+  color: white;
+}
+
+
+
+
+.page-2-of-features-page{
+  width: 100%;
+  height: 100vh;
+}
+.page-2-of-features-page h1{
+font-size: 70px;
+}
+.page-2-of-features-page p{
+font-size: 30px;
+}
+
+.section-1{
+  z-index: 1;
+  position: absolute;
+  padding-top: 25vh;
+  padding-left: 80px;
+  padding-right: 50vw;
+  color: white;
+}
+
+.page-2-of-features-page video{
+height: 100vh;
+width: 100%;
+}
+
+.page-2-of-features-page-main-div{
+    position: relative;
+    z-index: 0;
+}
+
+
+.page-3-of-features-page{
+  width: 100%;
+  height: 100vh;
+  
+}
+.page-3-of-features-page h1{
+font-size: 70px;
+}
+.page-3-of-features-page p{
+font-size: 30px;
+}
+
+.page-3-of-features-page .secction-1{
+padding-top: 25vh;
+padding-left: 80px;
+padding-right: 50vw;
+position: absolute;
+color: white;
+}
+
+.page-3-of-features-page video{
+height: 100vh;
+width: 100%;
+}
+
+.main-div-of-features-page-3{
+    z-index: 0;
+    position: relative;
+}
+
+@media (max-width:600px) {
+  
+.page-1-fe h1{
+  font-size: 50px;
+}
+.page-1-fe p{
+  font-size: 20px;
+}
+
+.hero-section-of-features-page-section-1{
+  padding-top: 25vh;
+  padding-left: 30px;
+  padding-right: 50vw;
+
+}
+
+
+
+.page-2-of-features-page h1{
+  font-size: 50px;
+}
+.page-2-of-features-page p{
+  font-size: 20px;
+}
+
+.page-2-of-features-page-1{
+  padding-top: 25vh;
+  padding-left: 30px;
+  padding-right: 50vw;
+
+}
+
+
+.page-3-of-features-page h1{
+  font-size: 50px;
+}
+.page-3-of-features-page p{
+  font-size: 20px;
+}
+
+.section-1{
+  padding-top: 25vh;
+  padding-left: 30px;
+  padding-right: 50vw;
+
+}
+
+}

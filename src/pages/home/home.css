@@ -1,0 +1,215 @@
+.main-container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Gotham SSm B, Gotham SSm A, Helvetica, Roboto, Arial, sans-serif;
+}
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+section {
+  scroll-snap-align: start;
+}
+
+
+.page-1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.page-1 .text {
+  background-color: #fefefe;
+  padding: 13% 10%;
+}
+.page-1 .text h1 {
+  font-size: 50px;
+}
+
+.page-1 .text p {
+  font-size: 20px;
+}
+.page-1 .text-2 {
+  background-color: rgba(253, 2, 2, 1);
+  padding: 13% 10%;
+  color: #fefefe;
+}
+.page-1 .text-2 h1 {
+  font-size: 50px;
+}
+.page-1 .text-2 p {
+  font-size: 20px;
+}
+
+
+.page-2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.page-2 .text {
+  background-color: rgba(253, 2, 2, 1);
+  color: #fefefe;
+  padding: 13% 10%;
+}
+.page-2 .text h1 {
+  font-size: 50px;
+}
+
+.page-2 .text p {
+  font-size: 20px;
+}
+.page-2 .text-2 {
+  padding: 13% 10%;
+}
+.page-2 .text-2 h1 {
+  font-size: 50px;
+}
+.page-2 .text-2 p {
+  font-size: 20px;
+}
+
+
+.page-3 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.page-3 .text {
+  background-color: #fefefe;
+  padding: 13% 8%;
+}
+.page-3 .text h1 {
+  font-size: 50px;
+}
+
+.page-3 .text p {
+  font-size: 20px;
+}
+.page-3 .text-2 {
+  background-color: rgba(253, 2, 2, 1);
+  padding: 13% 8%;
+  color: #fefefe;
+}
+.page-3 .text-2 h1 {
+  font-size: 50px;
+}
+.page-3 .text-2 p {
+  font-size: 20px;
+}
+
+
+.page-4 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.page-4 .text {
+  background-color: rgba(253, 2, 2, 1);
+  color: #fefefe;
+  padding: 13% 10%;
+}
+.page-4 .text h1 {
+  font-size: 50px;
+}
+
+.page-4 .text p {
+  font-size: 20px;
+}
+.page-4 .text-2 {
+  padding: 13% 10%;
+}
+.page-4 .text-2 h1 {
+  font-size: 50px;
+}
+.page-4 .text-2 p {
+  font-size: 20px;
+}
+
+
+
+@media (max-width:600px) {
+  .page-1{
+    flex-wrap: wrap;
+  }
+  .page-2{
+    flex-wrap: wrap;
+  }
+  .page-3{
+    flex-wrap: wrap;
+  }
+  .page-4{
+    flex-wrap: wrap;
+  }
+  .page-1 .text h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-1 .text p {
+    font-size: 15px !important;
+  }
+
+  .page-1 .text-2 h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-1 .text-2 p {
+    font-size: 15px !important;
+  }
+
+  
+
+  .page-2 .text h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-2 .text p {
+    font-size: 15px !important;
+  }
+
+  .page-2 .text-2 h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-2 .text-2 p {
+    font-size: 15px !important;
+  }
+
+
+
+  .page-3 .text h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-3 .text p {
+    font-size: 15px !important;
+  }
+
+  .page-3 .text-2 h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-3 .text-2 p {
+    font-size: 15px !important;
+  }
+
+
+
+  .page-4 .text h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-4 .text p {
+    font-size: 15px !important;
+  }
+
+  .page-4 .text-2 h1 {
+    font-size: 30px !important;
+  }
+  
+  .page-4 .text-2 p {
+    font-size: 15px !important;
+  }
+}
